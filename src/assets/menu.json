@@ -1,21 +1,29 @@
-[{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+[
+    {
+        "name": "Classic Cheeseburger", 
+        "description": "En  nötköttsburgare med smält ost, färska grönsaker och vår hemlagade sås. Pommes frites och läsk ingår.",
+        "kCal": 750, 
+        "url": "/img/Classic_Burger1.jpg",
+        "lactose": true, 
+        "gluten": true,
+        "price": "159 kr"
+    },
+    {
+        "name": "Spicy Chilliburger", 
+        "description": "En kryddig burgare med jalapeños, pepperost och en het chillidressing för den som gillar stark mat. Pommes frites och läsk ingår.",
+        "kCal": 710, 
+        "url": "/img/Spicy_Burger.jpg",
+        "lactose": false, 
+        "gluten": true,
+        "price": "169 kr"
+    },
+    {
+        "name": "Crispy Chickenburger", 
+        "description": "En krispig kycklingburgare med sallad, tomat och vår hemlagade sås. Pommes frites och läsk ingår.",
+        "kCal": 745, 
+        "url": "/img/Chicken_Burger.jpg",
+        "lactose": true, 
+        "gluten": false,
+        "price": "159 kr"
+    }
+]

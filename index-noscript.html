@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Order burgers online</title>
+        <meta charset="utf-8"/>
+        <!-- link rel="CSS-reset-file" type="text/css" href="public/css/style2.css"-->
+        <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    </head>
+    <body>
+        <header> 
+            <div class="header-content">
+                <img src="/img/Cosy_Restaurant.jpg">
+                <h1>Väkommen till BurgerOnline</h1>
+            </div>
+        </header>
+
+        <main>
+            <section id="burger-section"> 
+                <div id="burger-title">
+                    <h2>Välj vad du är sugen på idag</h2>
+                    <p>Här ser du vilka hamburgare du kan välja mellan</p>
+                </div>
+                
+                <div class="burger-wrapper">
+                    <div class="burger-item">
+                        <h3 class="burger-h3">Classic Cheeseburger</h3>
+                        <img class="burger-images" src="/img/Classic_Burger.1.png" style="width: 200px;"> 
+                        <ul>
+                            <li>Klassisk cheeseburgare gjort på svenskt nötkött med cheddarost, sallad, tomat, rödlök och husets egna hamburgardressing</li>
+                            <li>750 kCal</li>
+                            <li>Innehåller både <span class="ingridient-info"> gluten </span> och <span class="ingridient-info"> laktos</span></li> <!--skapar en klass för att kunna fetmarkera allergier-->
+                        </ul>
+                    </div>
+                    <div class="burger-item">
+                        <h3 class="burger-h3">Spicy Chilliburger</h3>
+                        <img class="burger-images" src="/img/Spicy_Burger.png" style="width: 200px">
+                        <ul>
+                            <li>Stark hamburgare gjord på svenskt nötkött, chilli, pepparost och chipotlesås</li>
+                            <li>710 kCal</li>
+                            <li>Innehåller <span class="ingridient-info"> gluten </span></li>
+                            <li>Kan innehålla spår av <span class="ingridient-info">nötter</span></li>
+                        </ul>
+                    </div>
+                    <div class="burger-item">
+                        <h3 class="burger-h3">Crispy Chickenburger</h3>
+                        <img class="burger-images" src="/img/Chicken_Burger.png" style="width: 200px">
+                        <ul>
+                            <li>Krispig friterad kycklingburgare gjord på svensk kyckling med cheddarost, sallad, tomat, lök och husets egna hamburgardressing</li>
+                            <li>745 kCal</li>
+                            <li>innehåller både <span class="ingridient-info"> gluten </span> och <span class="ingridient-info"> laktos </span></li>
+                            <li>Kan innehålla spår av <span class="ingridient-info">nötter</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="order-section">
+                <h2>Kundinformation</h2>
+                <p>Här anger du nödvändig information (dina kontaktuppgifter, leveransadress etc)</p>
+                <h3>Leveransinformation</h3>
+                <p>
+                    <label for="fullname">Fullständigt namn:</label><br>
+                    <input type="text" id="fullname" name="fn" required="required" placeholder="För- & Efternamn">
+                </p>
+                <p>
+                    <label for="email">E-mail adress:</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail adress">
+                </p>
+                <p>
+                    <label for="street">Gatunamn:</label><br>
+                    <input type="text" id="street" name="street" placeholder="Gatunamn">
+                </p>
+                <p>
+                    <label for="housenumber">Husnummer:</label><br>
+                    <input type="number" id="housenumber" name="housenumber" placeholder="Husnummer" >
+                </p>
+                <p>
+                    <label for="paymentMethod">Betalnings metod:</label>
+                    <select id="paymentMethod" name="paymentMethod">
+                        <option selected="selected">Credit Card</option>
+                        <option>Swish</option>
+                        <option>Klarna</option>
+                        <option>Kontant</option>
+                        <option>Apple Pay</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Ange kön:</label><br>
+                    
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Man</label><br>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Kvinna</label><br>
+
+                    <input type="radio" id="non-binary" name="gender" value="non-binary">
+                    <label for="non-binary">Icke-Binär</label><br>
+
+                    <input type="radio" id="no-answer" name="gender" value="no-answer" checked="checked">
+                    <label for="no-answer">Jag vill inte svara</label>
+                </p>
+            </section>
+             <button type="submit"> <!--Rätt placering?-->
+                <img src="/img/burger_order2.png" style="height: 30px;">
+                Skicka min order
+            </button>
+        </main>
+        <hr> 
+        <footer>
+            <p>&copy; 2025 BurgerOnline Co.</p>
+        </footer>
+    </body>
+</html>
